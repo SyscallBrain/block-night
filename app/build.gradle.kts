@@ -5,13 +5,13 @@ plugins {
 }
 android {
     namespace = "pt.tiago.blocknight"
-    compileSdk { version = release(37) { minorApiLevel = 2 } }
+    compileSdk { version = release(37) { minorApiLevel = 1 } }
     defaultConfig {
         applicationId = "pt.tiago.blocknight"
         minSdk = 26
         targetSdk = 36
-        versionCode = 11
-        versionName = "0.3.8"
+        versionCode = 12
+        versionName = "0.3.9"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -32,6 +32,8 @@ android {
         release {
             isMinifyEnabled = false
             signingConfig = signingConfigs.findByName("release")
+            // Keep the git revision out of the APK so release builds are reproducible from source.
+            vcsInfo.include = false
         }
     }
     dependenciesInfo {
