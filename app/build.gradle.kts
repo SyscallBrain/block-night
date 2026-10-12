@@ -10,8 +10,8 @@ android {
         applicationId = "pt.tiago.blocknight"
         minSdk = 26
         targetSdk = 36
-        versionCode = 12
-        versionName = "0.3.9"
+        versionCode = 13
+        versionName = "0.3.10"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -30,7 +30,9 @@ android {
     }
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             signingConfig = signingConfigs.findByName("release")
             // Keep the git revision out of the APK so release builds are reproducible from source.
             vcsInfo.include = false
