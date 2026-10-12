@@ -1,0 +1,97 @@
+{
+    "id": "floor-0275",
+    "ordinal": 275,
+    "districtId": 6,
+    "familyId": "concrete-bands",
+    "learningTags": [],
+    "revision": 1,
+    "variants": {
+        "easy": {
+            "seedHex": "165683ecddf195d7",
+            "garbageSeedHex": "3f35a0a868171cc5",
+            "speedLevel": 4,
+            "previewCount": 5,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "RRRR.RRRRR",
+                ".GGGGGGGGG"
+            ],
+            "objective": {
+                "type": "dig"
+            },
+            "maxPieces": 16,
+            "twoStarMaxPieces": 13,
+            "threeStarMaxPieces": 10,
+            "expectedMetrics": {
+                "pieces": 6,
+                "maxSteps": 4,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 4.747,
+                "maxHeight": 4,
+                "beamWidth": 64,
+                "budgetSlack": 10
+            }
+        },
+        "medium": {
+            "seedHex": "4c693330be400c84",
+            "garbageSeedHex": "9a974694c09680fd",
+            "speedLevel": 5,
+            "previewCount": 3,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "RR.RRRRRRR",
+                "GGGGGGG.GG",
+                "RRRRRRR.RR",
+                "GGGGGGG.GG"
+            ],
+            "objective": {
+                "type": "dig"
+            },
+            "maxPieces": 19,
+            "twoStarMaxPieces": 17,
+            "threeStarMaxPieces": 15,
+            "expectedMetrics": {
+                "pieces": 13,
+                "maxSteps": 6,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 2.7004,
+                "maxHeight": 8,
+                "beamWidth": 64,
+                "budgetSlack": 6
+            }
+        },
+        "hard": {
+            "seedHex": "54a41bfa30fec926",
+            "garbageSeedHex": "cdac3c8e2852d5ab",
+            "speedLevel": 7,
+            "previewCount": 2,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "RRRRR.RRRR",
+                "GG.GGGGGGG",
+                "RRRRRR.RRR",
+                "GGGGGGGGG.",
+                "R.RRRRRRRR",
+                "GGGG.GGGGG"
+            ],
+            "objective": {
+                "type": "dig"
+            },
+            "maxPieces": 22,
+            "twoStarMaxPieces": 21,
+            "threeStarMaxPieces": 20,
+            "expectedMetrics": {
+                "pieces": 19,
+                "maxSteps": 5,
+                "spinShare": 0.1053,
+                "meanSecondsPerStep": 1.4264,
+                "maxHeight": 9,
+                "beamWidth": 64,
+                "budgetSlack": 3
+            }
+        }
+    }
+}

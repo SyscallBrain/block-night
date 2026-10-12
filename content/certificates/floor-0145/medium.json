@@ -1,0 +1,164 @@
+{
+    "floorId": "floor-0145",
+    "difficulty": "medium",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "56690f6aaf4d3d26acc3b24b9d750a4834abe27676a1323265746d76b7547190",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "LcDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": 5,
+                "rot": 1
+            },
+            "stateHash": "062a4bfa6c8ee5c1"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "LLDDDDDDDDDDDcLDDD",
+            "final": {
+                "x": -2,
+                "y": 4,
+                "rot": 1
+            },
+            "stateHash": "c9b888d420c95a62"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "RRRRDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 3,
+                "rot": 0
+            },
+            "stateHash": "8199be451da10421"
+        },
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "LLwDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 3,
+                "rot": 3
+            },
+            "stateHash": "7a4e67abdbc87453"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "RDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 3,
+                "rot": 0
+            },
+            "stateHash": "b73838e03ead6ab9"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "cDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 2,
+                "rot": 1
+            },
+            "stateHash": "82a15fdce71e2f0f"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "RRcDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 2,
+                "rot": 1
+            },
+            "stateHash": "4923bbf8e8d909b5"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LLwDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 2,
+                "rot": 3
+            },
+            "stateHash": "eb3a4acaa283ca07"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "RRRcRDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 2,
+                "rot": 1
+            },
+            "stateHash": "5e3301ff4c92c02c"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "DDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 2,
+                "rot": 0
+            },
+            "stateHash": "0aa7fed9abea08b1"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "LLLLDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 3,
+                "rot": 0
+            },
+            "stateHash": "5b376e159dbbd207"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "RRDDDDDDDDDDDDDDDwRDD",
+            "final": {
+                "x": 7,
+                "y": 1,
+                "rot": 3
+            },
+            "stateHash": "393614b5ad163139"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "3406a39be9d5c0f7"
+        }
+    ],
+    "result": {
+        "pieces": 13,
+        "won": true,
+        "linesCleared": 9,
+        "score": 9300,
+        "finalStateHash": "3406a39be9d5c0f7"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 37909,
+        "ms": 248
+    }
+}

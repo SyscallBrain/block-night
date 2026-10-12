@@ -1,0 +1,98 @@
+{
+    "floorId": "floor-0503",
+    "difficulty": "hard",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "bc40269cb5eec5807bd31c2956290a7699760290b83960554a62c94f769288fd",
+    "steps": [
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "LDDDDDDDDDDDDc",
+            "final": {
+                "x": 0,
+                "y": 6,
+                "rot": 1
+            },
+            "stateHash": "15311f6aee055d04"
+        },
+        {
+            "hold": true,
+            "piece": "T",
+            "path": "ccDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 5,
+                "rot": 2
+            },
+            "stateHash": "1ea7e1b768bc2c5b"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LLLwDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 4,
+                "rot": 3
+            },
+            "stateHash": "befd9ffdbfc2da86"
+        },
+        {
+            "hold": true,
+            "piece": "L",
+            "path": "RRcDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 4,
+                "rot": 1
+            },
+            "stateHash": "a211f91611e2b328"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RRRRcDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 2,
+                "rot": 1
+            },
+            "stateHash": "191f69701bdad8ac"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "cDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 1,
+                "rot": 1
+            },
+            "stateHash": "169f385bcae0c702"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RDDDDDDDDDDDDDDDDcRDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "81af76d63c63ea19"
+        }
+    ],
+    "result": {
+        "pieces": 7,
+        "won": true,
+        "linesCleared": 8,
+        "score": 12200,
+        "finalStateHash": "81af76d63c63ea19"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 19398,
+        "ms": 137
+    }
+}

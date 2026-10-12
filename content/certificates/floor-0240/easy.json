@@ -1,0 +1,648 @@
+{
+    "floorId": "floor-0240",
+    "difficulty": "easy",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "591fcdf228cb804caf8cf82742e7f1cc5fd942f568f7305bd4f2cb7032fbfce8",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "wDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "78b9fe1688dc32dc"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "LLDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "018dddc2830a1e15"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "RRRRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 8,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "db24b04f465e2387"
+        },
+        {
+            "hold": true,
+            "piece": "T",
+            "path": "LLDDDDDDDDDDDDDDDDDcLD",
+            "final": {
+                "x": -1,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "854a0340974cd021"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "RDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "1d1500c5eac59e1e"
+        },
+        {
+            "hold": true,
+            "piece": "J",
+            "path": "RRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "045762254ddb2a32"
+        },
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "wDDDDDDDDDDDDDDDDDDwLL",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "a3dd95eabad19510"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "1c33c39dac5e50fe"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RRDDDDDDDDDDDDDDDDDDwRR",
+            "final": {
+                "x": 8,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "c0c487cbc2576cf4"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "RRRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "d183fc33af38addd"
+        },
+        {
+            "hold": true,
+            "piece": "L",
+            "path": "cDDDDDDDDDDDDDDDDDDcRR",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "bf370d1cf85bfac0"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "DDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "ab0ac49f82ed3533"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "LDDDDDDDDDDDDDDDDDDccDD",
+            "final": {
+                "x": 0,
+                "y": -2,
+                "rot": 2
+            },
+            "stateHash": "0a84f1e4ef16e52c"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "DDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "b716115e6d89d55a"
+        },
+        {
+            "hold": true,
+            "piece": "T",
+            "path": "LLLDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "2da9861acbb94832"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "RRRRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "bae29f04183cb0a6"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "RRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "0a91c772d452d960"
+        },
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "wDDDDDDDDDDDDDDDDDDwL",
+            "final": {
+                "x": 1,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "c9985646f3537df0"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "ccDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "e180e1e76fdcfa66"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RRDDDDDDDDDDDDDDDDDwRwD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "d81c8cf19b98debc"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "LLLDDDDDDDDDDDDDDDDDcD",
+            "final": {
+                "x": -1,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "90801056a6278bab"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "RRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "86cea0258390ea97"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "LDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "08c932664892384b"
+        },
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "RRRRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "fe1b75a664a370cb"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "RRRRDDDDDDDDDDDDDDDDDwD",
+            "final": {
+                "x": 8,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "6a09da5b91a4612e"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "LDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "b6c674785b58030b"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "LLLDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "f215a9104cc85ec9"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "RRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "3b0f89eebd74dc2c"
+        },
+        {
+            "hold": true,
+            "piece": "O",
+            "path": "DDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "ffd397c4c90128d4"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "LwDDDDDDDDDDDDDDDDDwD",
+            "final": {
+                "x": 1,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "983f0325f81b6232"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "LLLDDDDDDDDDDDDDDDDDcD",
+            "final": {
+                "x": -2,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "9489177bd24bd91f"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "LLDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "52385499ab6dcfde"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "DDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "0da356565f04473c"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "RRRRcDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 1,
+                "rot": 1
+            },
+            "stateHash": "a7b7ccf1d72a860d"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "RRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "1999b54632c32f83"
+        },
+        {
+            "hold": true,
+            "piece": "J",
+            "path": "ccDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 1,
+                "rot": 2
+            },
+            "stateHash": "a2a391f3288a99b6"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RRRDDDDDDDDDDDDDDDDDcD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "86dfe5890afb2fa2"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "LLLwDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "21cfeb110e6b9487"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "RRRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "a19b50eb2d94f762"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "LccDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "b6584144c0859f99"
+        },
+        {
+            "hold": true,
+            "piece": "T",
+            "path": "DDDDDDDDDDDDDDDDDwRwD",
+            "final": {
+                "x": 5,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "bf0a8cbf2abcdddd"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "LLLwDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "2e67faf80b4eb1f9"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RRRDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "40210373a4110235"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "ccDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "ead317aad7ce2fd4"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LwDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "a6aa3191fd9cf686"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "3701b952adb03c1e"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "LDDDDDDDDDDDDDDDDDcLcD",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "58dd1e9b86a9c33c"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "RDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 5,
+                "y": 1,
+                "rot": 0
+            },
+            "stateHash": "08c3180e3efae846"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RRRRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "0f964e9f9a106967"
+        },
+        {
+            "hold": true,
+            "piece": "O",
+            "path": "RRRRDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 8,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "23b24e877df5df52"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "RccDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "7413356aea9d4230"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LwDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 2,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "addbc5212a786c8b"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "RRRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "0b93f05df3b9b2a0"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "LLLLDDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 0
+            },
+            "stateHash": "c3c000c8451f369a"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "RRRRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "c097a2a83f4bc907"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "LLLccDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "5c06d7d300c1dabd"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "DDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": -1,
+                "rot": 0
+            },
+            "stateHash": "8d6286cf8105a715"
+        }
+    ],
+    "result": {
+        "pieces": 57,
+        "won": true,
+        "linesCleared": 29,
+        "score": 17200,
+        "finalStateHash": "8d6286cf8105a715"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 193762,
+        "ms": 1161
+    }
+}

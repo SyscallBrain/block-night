@@ -1,0 +1,100 @@
+{
+    "id": "floor-0192",
+    "ordinal": 192,
+    "districtId": 4,
+    "familyId": "targets-scatter",
+    "learningTags": [],
+    "revision": 1,
+    "variants": {
+        "easy": {
+            "seedHex": "e1f858b6f1a19240",
+            "garbageSeedHex": "810f6bd796ece95d",
+            "speedLevel": 4,
+            "previewCount": 5,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "GGGXGGGGG.",
+                "GGGGX.GGGG",
+                "GG.GGGGGXG"
+            ],
+            "objective": {
+                "type": "targets"
+            },
+            "maxPieces": 13,
+            "twoStarMaxPieces": 10,
+            "threeStarMaxPieces": 7,
+            "expectedMetrics": {
+                "pieces": 3,
+                "maxSteps": 6,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 3.3616,
+                "maxHeight": 3,
+                "beamWidth": 64,
+                "budgetSlack": 10
+            }
+        },
+        "medium": {
+            "seedHex": "d5136f82a3d42259",
+            "garbageSeedHex": "c50b1fd718668f76",
+            "speedLevel": 6,
+            "previewCount": 3,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "GGGGGG.GXX",
+                "G.XGGGGGXG",
+                "GG.GGGGXXG",
+                ".GGGXGGGGX",
+                "GXGGGGGXG."
+            ],
+            "objective": {
+                "type": "targets"
+            },
+            "maxPieces": 15,
+            "twoStarMaxPieces": 13,
+            "threeStarMaxPieces": 11,
+            "expectedMetrics": {
+                "pieces": 9,
+                "maxSteps": 5,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 1.8258,
+                "maxHeight": 7,
+                "beamWidth": 64,
+                "budgetSlack": 6
+            }
+        },
+        "hard": {
+            "seedHex": "30c3e4615b647658",
+            "garbageSeedHex": "5d6cc3831edd47ee",
+            "speedLevel": 7,
+            "previewCount": 2,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "GG.GGGXGGX",
+                "XGGX.GGGGG",
+                "GGXGGG.GGX",
+                "GXGXG.GGGG",
+                "XGGGGGGG.G",
+                "GGGGGXG.GG",
+                "GXGGGGXGG."
+            ],
+            "objective": {
+                "type": "targets"
+            },
+            "maxPieces": 15,
+            "twoStarMaxPieces": 14,
+            "threeStarMaxPieces": 13,
+            "expectedMetrics": {
+                "pieces": 12,
+                "maxSteps": 5,
+                "spinShare": 0.0833,
+                "meanSecondsPerStep": 1.4597,
+                "maxHeight": 8,
+                "beamWidth": 64,
+                "budgetSlack": 3
+            }
+        }
+    }
+}

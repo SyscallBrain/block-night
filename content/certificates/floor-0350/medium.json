@@ -1,0 +1,87 @@
+{
+    "floorId": "floor-0350",
+    "difficulty": "medium",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "cd98aa2d4f1e25207678a242c39568ba73e06ef8aabfb27e4da9fa0815e0a1f2",
+    "steps": [
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "LLwDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 4,
+                "rot": 3
+            },
+            "stateHash": "acd1a8ca496ec24a"
+        },
+        {
+            "hold": true,
+            "piece": "O",
+            "path": "LDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 4,
+                "rot": 0
+            },
+            "stateHash": "fd85bca162d345ba"
+        },
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "RRRRcDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 3,
+                "rot": 1
+            },
+            "stateHash": "43762abd17ab6b91"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "LLLDDDDDDDDDDDDDDwDD",
+            "final": {
+                "x": -1,
+                "y": 2,
+                "rot": 3
+            },
+            "stateHash": "4dfcd76b94665882"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "RcDDDDDDDDDDDDDDDDcD",
+            "final": {
+                "x": 5,
+                "y": 1,
+                "rot": 2
+            },
+            "stateHash": "d245c4f7808ced34"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "5ac4cabb7bf58f7a"
+        }
+    ],
+    "result": {
+        "pieces": 6,
+        "won": true,
+        "linesCleared": 6,
+        "score": 9500,
+        "finalStateHash": "5ac4cabb7bf58f7a"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 11269,
+        "ms": 77
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "floorId": "floor-0386",
+    "difficulty": "hard",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "8081d0e0110735c5cb498133079bfc798bcab431d9075d5cc1baabc709447069",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "RRRRDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 6,
+                "rot": 0
+            },
+            "stateHash": "0db4a363070f3bdb"
+        },
+        {
+            "hold": true,
+            "piece": "J",
+            "path": "DDDDDDDDDDDDcD",
+            "final": {
+                "x": 2,
+                "y": 5,
+                "rot": 1
+            },
+            "stateHash": "e5b80007923e4b43"
+        },
+        {
+            "hold": false,
+            "piece": "O",
+            "path": "LLLLDDDDDDDDDDDDDD",
+            "final": {
+                "x": 0,
+                "y": 5,
+                "rot": 0
+            },
+            "stateHash": "5941142cc06cc8c2"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "DDDDDDDDDDDDDwRDw",
+            "final": {
+                "x": 5,
+                "y": 4,
+                "rot": 2
+            },
+            "stateHash": "eabe9a95c207347e"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "LLwDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 4,
+                "rot": 3
+            },
+            "stateHash": "4fca1682e7d60e1d"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "wDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 3,
+                "rot": 3
+            },
+            "stateHash": "56b8249e5fe89db6"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "RDDDDDDDDDDDDDDDw",
+            "final": {
+                "x": 5,
+                "y": 3,
+                "rot": 3
+            },
+            "stateHash": "12abcdfcd0efec31"
+        },
+        {
+            "hold": true,
+            "piece": "I",
+            "path": "RRRcRDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 3,
+                "rot": 1
+            },
+            "stateHash": "35c7b3bdc3c4d5d2"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "RRRcDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 2,
+                "rot": 1
+            },
+            "stateHash": "ace9d5b1a224ef19"
+        },
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "DDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 1,
+                "rot": 0
+            },
+            "stateHash": "5b28437b08de6f07"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "DDDDDDDDDDDDDDDww",
+            "final": {
+                "x": 4,
+                "y": 3,
+                "rot": 2
+            },
+            "stateHash": "0ddd24b5956ce2d5"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "LDDDDDDDDDDDDDDcLLDDD",
+            "final": {
+                "x": -2,
+                "y": 1,
+                "rot": 1
+            },
+            "stateHash": "06421893b95e24cd"
+        },
+        {
+            "hold": true,
+            "piece": "L",
+            "path": "RRDDDDDDDDDDDDDDDDwRDD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "de426f7648087187"
+        }
+    ],
+    "result": {
+        "pieces": 13,
+        "won": true,
+        "linesCleared": 10,
+        "score": 21150,
+        "finalStateHash": "de426f7648087187"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 42181,
+        "ms": 308
+    }
+}

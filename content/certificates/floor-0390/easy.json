@@ -1,0 +1,87 @@
+{
+    "floorId": "floor-0390",
+    "difficulty": "easy",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "610db92734fb9d03d4da6265fd073327ae93e05fcff7de3479d57aaceaa9a0c9",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LLwDDDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 4,
+                "rot": 3
+            },
+            "stateHash": "1060496bc2eddd0b"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "LLwDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 7,
+                "rot": 3
+            },
+            "stateHash": "89b17f8839929e97"
+        },
+        {
+            "hold": true,
+            "piece": "L",
+            "path": "RRRRwDDDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 4,
+                "rot": 3
+            },
+            "stateHash": "b57cf558ef61f428"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "cDDDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 4,
+                "rot": 1
+            },
+            "stateHash": "543c1fe9b8848fd8"
+        },
+        {
+            "hold": true,
+            "piece": "O",
+            "path": "DDDDDDDDDDDD",
+            "final": {
+                "x": 4,
+                "y": 7,
+                "rot": 0
+            },
+            "stateHash": "8cf4b14690be4eba"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RcDDDDDDDDDDDDccDDDDDD",
+            "final": {
+                "x": 8,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "8f13cbb627849d66"
+        }
+    ],
+    "result": {
+        "pieces": 6,
+        "won": true,
+        "linesCleared": 4,
+        "score": 4000,
+        "finalStateHash": "8f13cbb627849d66"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 12190,
+        "ms": 68
+    }
+}

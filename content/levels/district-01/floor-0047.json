@@ -1,0 +1,91 @@
+{
+    "id": "floor-0047",
+    "ordinal": 47,
+    "districtId": 1,
+    "familyId": "garbage-cheese",
+    "learningTags": [],
+    "revision": 1,
+    "variants": {
+        "easy": {
+            "seedHex": "f177a89adfd6d315",
+            "garbageSeedHex": "a92e23ab0e766038",
+            "speedLevel": 3,
+            "previewCount": 5,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [],
+            "objective": {
+                "type": "lines",
+                "n": 25
+            },
+            "maxPieces": 103,
+            "twoStarMaxPieces": 92,
+            "threeStarMaxPieces": 78,
+            "expectedMetrics": {
+                "pieces": 64,
+                "maxSteps": 6,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 5.8942,
+                "maxHeight": 3,
+                "beamWidth": 64,
+                "budgetSlack": 39
+            }
+        },
+        "medium": {
+            "seedHex": "c79408c3c5cb3540",
+            "garbageSeedHex": "10ce58f508c4a758",
+            "speedLevel": 4,
+            "previewCount": 3,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "GGGGGGG.GG",
+                "G.GGG..GGG"
+            ],
+            "objective": {
+                "type": "lines",
+                "n": 25
+            },
+            "maxPieces": 81,
+            "twoStarMaxPieces": 73,
+            "threeStarMaxPieces": 66,
+            "expectedMetrics": {
+                "pieces": 60,
+                "maxSteps": 6,
+                "spinShare": 0.0,
+                "meanSecondsPerStep": 4.1989,
+                "maxHeight": 3,
+                "beamWidth": 64,
+                "budgetSlack": 21
+            }
+        },
+        "hard": {
+            "seedHex": "dfdd8bd01fdf2615",
+            "garbageSeedHex": "1c8bb872586f9551",
+            "speedLevel": 5,
+            "previewCount": 2,
+            "allowHold": true,
+            "openingQueue": [],
+            "initialBoard": [
+                "GGGGGG.GG.",
+                "GGGGGG.GGG"
+            ],
+            "objective": {
+                "type": "lines",
+                "n": 25
+            },
+            "maxPieces": 68,
+            "twoStarMaxPieces": 64,
+            "threeStarMaxPieces": 61,
+            "expectedMetrics": {
+                "pieces": 59,
+                "maxSteps": 6,
+                "spinShare": 0.1186,
+                "meanSecondsPerStep": 3.2697,
+                "maxHeight": 3,
+                "beamWidth": 64,
+                "budgetSlack": 9
+            }
+        }
+    }
+}

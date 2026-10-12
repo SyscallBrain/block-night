@@ -1,0 +1,23 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+*.apk
+*.keystore
+*.jks
+*.p12
+.idea/
+*.log
+logs/
+dist/
+content/candidates/
+.DS_Store
+__pycache__/
+
+# Internal planning and delivery notes: kept on the author's machine, not published.
+/AGENTS.md
+/PLANO.md
+/docs/*.md
+/docs/design/
+/docs/evidence/
+/tools/deliver.sh

@@ -1,0 +1,87 @@
+{
+    "floorId": "floor-0211",
+    "difficulty": "medium",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "cd7b114604b25aa216180638332593a9d45cc35d5f7f9a0f3cb21d8eb3f1fadb",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "Z",
+            "path": "LLwDDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 6,
+                "rot": 3
+            },
+            "stateHash": "831d30ea4bef315b"
+        },
+        {
+            "hold": true,
+            "piece": "O",
+            "path": "LLLDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 9,
+                "rot": 0
+            },
+            "stateHash": "71319d3898132322"
+        },
+        {
+            "hold": true,
+            "piece": "S",
+            "path": "cDDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 6,
+                "rot": 1
+            },
+            "stateHash": "3d118bdcd11530ca"
+        },
+        {
+            "hold": false,
+            "piece": "L",
+            "path": "cDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 9,
+                "rot": 1
+            },
+            "stateHash": "0146270acf51738a"
+        },
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "DDDDDDDcLL",
+            "final": {
+                "x": 0,
+                "y": 11,
+                "rot": 1
+            },
+            "stateHash": "6d181efa0fa3c722"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RRRcDDDDDDDDDDDDDDDDDD",
+            "final": {
+                "x": 6,
+                "y": 0,
+                "rot": 1
+            },
+            "stateHash": "610808188912e53e"
+        }
+    ],
+    "result": {
+        "pieces": 6,
+        "won": true,
+        "linesCleared": 4,
+        "score": 4000,
+        "finalStateHash": "610808188912e53e"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 12123,
+        "ms": 106
+    }
+}

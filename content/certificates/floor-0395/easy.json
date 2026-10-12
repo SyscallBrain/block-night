@@ -1,0 +1,32 @@
+{
+    "floorId": "floor-0395",
+    "difficulty": "easy",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "ab434dc9d653317a574fa7fba04b2484729a12afab559eededfe43f0c5b80def",
+    "steps": [
+        {
+            "hold": false,
+            "piece": "T",
+            "path": "wDDDDDDDDDDDDDDDDDw",
+            "final": {
+                "x": 2,
+                "y": 0,
+                "rot": 2
+            },
+            "stateHash": "54a84ef0bed10c99"
+        }
+    ],
+    "result": {
+        "pieces": 1,
+        "won": true,
+        "linesCleared": 1,
+        "score": 4800,
+        "finalStateHash": "54a84ef0bed10c99"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 27,
+        "ms": 0
+    }
+}

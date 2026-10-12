@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Block Night</string>
+    <string name="brand_block">Block</string>
+    <string name="brand_night">Night</string>
+    <string name="tagline">A city, floor by floor</string>
+
+    <string name="district_eyebrow">District %1$d of %2$d</string>
+    <string name="district_progress">Floor %1$d of %2$d · ★ %3$d / %4$d</string>
+    <string name="district_totals">%1$d / %2$d floors</string>
+    <string name="continue_floor">Continue floor %1$d</string>
+    <string name="climb_floor">Climb to floor %1$d</string>
+    <string name="saved_match">Saved match · %1$s</string>
+    <string name="campaign_done">Review the city</string>
+    <string name="daily_caption">One floor a day · works offline</string>
+    <string name="settings_caption">Controls and sound</string>
+    <string name="statistics_caption">Your progress</string>
+
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+
+    <string name="setup_title">Floor %1$d · %2$s</string>
+    <string name="setup_play">Play</string>
+    <string name="setup_stars">★★★ up to %1$d pieces · ★★ up to %2$d</string>
+    <string name="setup_no_best">No result yet</string>
+    <string name="modifier_rising">Rising garbage every %1$d pieces</string>
+    <string name="modifier_no_hold">No Hold</string>
+    <string name="modifier_speed">Speed %1$d</string>
+    <string name="objective_dig">Clear all the garbage</string>
+    <string name="objective_targets">Light every window</string>
+    <string name="objective_score">Score %1$s points</string>
+    <string name="objective_combo">Make a combo of %1$d</string>
+
+    <string name="hud_floor">Floor %1$d</string>
+    <string name="hud_hold">Hold</string>
+    <string name="hud_next">Next</string>
+    <string name="label_quad">Quad</string>
+    <string name="label_tspin_double">T-Spin Double</string>
+    <string name="label_perfect">Perfect clear</string>
+    <string name="label_combo">Combo ×%1$d</string>
+
+    <string name="pause_title">Paused</string>
+    <string name="pause_resume">Resume</string>
+    <string name="pause_restart">Restart</string>
+    <string name="pause_save_exit">Save and exit</string>
+    <string name="pause_restart_confirm">Restart this floor? The current match is lost.</string>
+    <string name="confirm_yes">Restart</string>
+    <string name="confirm_no">Keep playing</string>
+
+    <string name="result_won">Floor cleared</string>
+    <string name="result_lost">Not this time</string>
+    <string name="result_pieces">Pieces used</string>
+    <string name="result_lines">Lines</string>
+    <string name="result_score">Score</string>
+    <string name="result_next">Next floor</string>
+    <string name="result_retry">Try again</string>
+    <string name="result_district">District</string>
+    <string name="result_save_failed">The result could not be saved. Try again.</string>
+    <string name="loss_top">The building reached the top</string>
+    <string name="loss_out_of_pieces">No pieces left</string>
+
+    <string name="gesture_hint">Drag to move · tap to rotate · swipe down to drop · swipe up or tap HOLD to hold</string>
+    <string name="cd_back">Back</string>
+
+    <string name="free_marathon">Marathon</string>
+    <string name="free_marathon_caption">Start at level %1$d · up to 15 · no end</string>
+    <string name="free_sprint">Sprint 40</string>
+    <string name="free_sprint_caption">Clear 40 lines as fast as you can</string>
+    <string name="free_ultra">Ultra 2:00</string>
+    <string name="free_ultra_caption">Most points in two minutes</string>
+    <string name="free_zen">Zen</string>
+    <string name="free_zen_caption">No losing · bottom rows vanish when you top out</string>
+    <string name="free_over">Run over</string>
+    <string name="free_level">Level</string>
+    <string name="free_speed">Speed</string>
+    <string name="free_best">Best: %1$s</string>
+    <string name="free_no_best">No record yet</string>
+    <string name="free_resume">Resume</string>
+    <string name="free_zen_note">Zen statistics are counted when you leave.</string>
+    <string name="daily_title">Daily challenge</string>
+    <string name="daily_floor">Today: floor %1$d · %2$s</string>
+    <string name="daily_history">Last results: %1$d of %2$d wins</string>
+    <string name="daily_no_history">No daily results yet.</string>
+    <string name="stats_title">Statistics</string>
+    <string name="stats_floors">Floors cleared · %1$s</string>
+    <string name="stats_pieces">Pieces placed</string>
+    <string name="stats_lines">Lines</string>
+    <string name="stats_quads">Quads</string>
+    <string name="stats_tspins">T-Spins</string>
+    <string name="stats_perfect">Perfect clears</string>
+    <string name="stats_combo">Best combo</string>
+    <string name="stats_records">Records</string>
+    <string name="stats_marathon_record">Marathon from level %1$d: %2$s points, %3$d lines, level %4$d</string>
+    <string name="stats_sprint_record">Sprint 40: %1$s</string>
+    <string name="stats_ultra_record">Ultra 2:00: %1$s points</string>
+    <string name="stats_no_records">No records yet.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_about">About</string>
+    <string name="home_free">Free play</string>
+    <string name="home_daily">Daily challenge</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_stats">Statistics</string>
+
+    <string name="pad_left">Move left</string>
+    <string name="pad_right">Move right</string>
+    <string name="pad_down">Soft drop</string>
+    <string name="pad_rotate_ccw">Rotate counter-clockwise</string>
+    <string name="pad_rotate_cw">Rotate clockwise</string>
+    <string name="pad_hold">Hold</string>
+    <string name="pad_drop">Hard drop</string>
+    <string name="settings_controls">Controls</string>
+    <string name="settings_controls_gestures">Gestures</string>
+    <string name="settings_controls_buttons">Buttons</string>
+    <string name="settings_left_handed">Left-handed layout</string>
+    <string name="settings_das">Delay before repeat (DAS)</string>
+    <string name="settings_arr">Repeat interval (ARR)</string>
+    <string name="settings_export">Export progress</string>
+    <string name="settings_import">Import progress</string>
+    <string name="settings_import_confirm">Replace your progress with this copy? The current progress is kept in a backup file first.</string>
+    <string name="settings_import_preview">Copy with %1$d floors completed</string>
+    <string name="settings_import_failed">This file is not a valid Block Night copy.</string>
+    <string name="settings_import_done">Progress imported.</string>
+    <string name="settings_export_done">Progress exported.</string>
+    <string name="settings_tick_unit">ticks</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="ach_first_win">First floor cleared</string>
+    <string name="ach_first_quad">First Quad</string>
+    <string name="ach_first_tspin">First T-Spin</string>
+    <string name="ach_combo_5">Combo ×5</string>
+    <string name="ach_first_perfect">First perfect clear</string>
+    <string name="ach_first_district">First district complete</string>
+    <string name="ach_floors_100">100 floors cleared</string>
+    <string name="result_retry_save">Save again</string>
+    <string name="home_profile_unreadable">The saved progress could not be read and was kept in a separate file. Nothing is overwritten.</string>
+    <string name="cd_pending">Pending validation</string>
+
+    <!-- 0.3.1: match header, HUD and corrected labels -->
+    <string name="floor_row_current">Floor %1$d, %2$s, %3$s, current</string>
+    <string name="floor_row_pending">Floor %1$d, pending validation</string>
+    <string name="floor_row_locked">Floor %1$d, locked</string>
+    <string name="floor_row_done">Floor %1$d, %2$s, %3$s</string>
+    <string name="floor_play">Play ›</string>
+    <string name="setup_best">Best: %1$d pieces · %2$s points</string>
+    <string name="daily_done_won">Played today: won · %1$d pieces</string>
+    <string name="daily_done_lost">Played today: not cleared · %1$d pieces</string>
+    <string name="free_caption">Marathon, Sprint, Ultra or Zen</string>
+    <string name="settings_about_text">Block Night is a falling-blocks game: climb 600 floors across 12 districts of a city at night.</string>
+    <string name="settings_about_author_label">Author</string>
+    <string name="settings_about_author" translatable="false">Tiago Correia</string>
+    <string name="settings_about_email" translatable="false">tiagorcorreia87@gmail.com</string>
+    <string name="settings_export_failed">The progress could not be exported.</string>
+    <string name="settings_import_yes">Replace progress</string>
+    <string name="settings_import_no">Cancel</string>
+    <string name="hud_speed">Speed</string>
+    <string name="hud_combo">Combo</string>
+    <string name="hud_b2b">B2B</string>
+    <string name="hud_star_limit">%1$s up to %2$d pieces</string>
+    <string name="hud_star_any">★ win to clear</string>
+    <string name="hud_points">%1$s points</string>
+    <string name="hud_points_caption">points</string>
+    <string name="hud_time_caption">time</string>
+    <string name="hud_time_left_caption">left</string>
+    <string name="hud_lines_caption">lines</string>
+    <string name="label_b2b">B2B</string>
+    <string name="label_tspin">T-Spin</string>
+    <string name="label_tspin_mini">T-Spin Mini</string>
+    <string name="label_tspin_single">T-Spin Single</string>
+    <string name="label_tspin_triple">T-Spin Triple</string>
+    <string name="pad_hold_short">Hold</string>
+    <string name="pad_drop_short">Drop</string>
+    <string name="free_sprint_done">Sprint complete</string>
+    <string name="free_hud_level">Level %1$d</string>
+    <string name="free_hud_speed">Speed %1$d</string>
+    <string name="free_hud_marathon">Lines %1$d · level %2$d</string>
+    <string name="free_hud_ultra">Score %1$s · lines %2$d</string>
+    <string name="free_hud_zen">Pieces %1$d</string>
+    <string name="result_time">Time</string>
+    <string name="cd_stars_one" tools:ignore="PluralsCandidate">%1$d star</string>
+    <string name="cd_stars_other" tools:ignore="PluralsCandidate">%1$d stars</string>
+    <string name="objective_lines_one" tools:ignore="PluralsCandidate">Clear %1$d line</string>
+    <string name="objective_lines_other" tools:ignore="PluralsCandidate">Clear %1$d lines</string>
+    <string name="objective_quads_one" tools:ignore="PluralsCandidate">Make %1$d Quad</string>
+    <string name="objective_quads_other" tools:ignore="PluralsCandidate">Make %1$d Quads</string>
+    <string name="objective_tspins_one" tools:ignore="PluralsCandidate">Make %1$d T-Spin</string>
+    <string name="objective_tspins_other" tools:ignore="PluralsCandidate">Make %1$d T-Spins</string>
+    <string name="setup_budget_one" tools:ignore="PluralsCandidate">%1$d piece</string>
+    <string name="setup_budget_other" tools:ignore="PluralsCandidate">%1$d pieces</string>
+    <string name="hud_pieces_left_one" tools:ignore="PluralsCandidate">left</string>
+    <string name="hud_pieces_left_other" tools:ignore="PluralsCandidate">left</string>
+    <string name="free_hud_sprint_one" tools:ignore="PluralsCandidate">%1$d line to go</string>
+    <string name="free_hud_sprint_other" tools:ignore="PluralsCandidate">%1$d lines to go</string>
+    <string name="cd_tower" tools:ignore="PluralsCandidate">%1$s tower: %2$d of %3$d floors cleared. Open the district map</string>
+    <string name="home_daily_won">Cleared today ✓</string>
+    <string name="home_daily_lost">Played today · try again</string>
+    <string name="home_free_resume">Resume %1$s</string>
+</resources>

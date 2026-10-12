@@ -1,0 +1,87 @@
+{
+    "floorId": "floor-0241",
+    "difficulty": "hard",
+    "levelRevision": 1,
+    "engineVersion": 1,
+    "levelHash": "13a05d8896f3869bf9603d7fba93ef198c610151d2a918f355fea056e086e2e9",
+    "steps": [
+        {
+            "hold": true,
+            "piece": "Z",
+            "path": "LLwDDDDDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 7,
+                "rot": 3
+            },
+            "stateHash": "adb2a4728f8da117"
+        },
+        {
+            "hold": true,
+            "piece": "T",
+            "path": "LLDDDDDDDDDc",
+            "final": {
+                "x": 0,
+                "y": 9,
+                "rot": 1
+            },
+            "stateHash": "bd9d6bbc0a45a1ef"
+        },
+        {
+            "hold": true,
+            "piece": "L",
+            "path": "cDDDDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 7,
+                "rot": 1
+            },
+            "stateHash": "f6ec562da3a246f6"
+        },
+        {
+            "hold": false,
+            "piece": "S",
+            "path": "LLwDDDDDDD",
+            "final": {
+                "x": 1,
+                "y": 11,
+                "rot": 3
+            },
+            "stateHash": "67bb8dec8837cb40"
+        },
+        {
+            "hold": false,
+            "piece": "J",
+            "path": "cDDDDDDDD",
+            "final": {
+                "x": 3,
+                "y": 10,
+                "rot": 1
+            },
+            "stateHash": "6187948f5aa2fdc2"
+        },
+        {
+            "hold": false,
+            "piece": "I",
+            "path": "RDDDDDDwRDDDDDDDDDDDD",
+            "final": {
+                "x": 7,
+                "y": 0,
+                "rot": 3
+            },
+            "stateHash": "a238c238dfdfc39e"
+        }
+    ],
+    "result": {
+        "pieces": 6,
+        "won": true,
+        "linesCleared": 4,
+        "score": 5600,
+        "finalStateHash": "a238c238dfdfc39e"
+    },
+    "solver": {
+        "beamWidth": 64,
+        "expanded": 13775,
+        "ms": 63
+    }
+}

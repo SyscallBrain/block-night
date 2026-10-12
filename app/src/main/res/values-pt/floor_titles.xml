@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="floor_titles">
+        <item>Escadinhas</item>
+        <item>Miradouro</item>
+        <item>Azulejo</item>
+        <item>Calçada</item>
+        <item>Varanda</item>
+        <item>Pátio</item>
+        <item>Lavadouro</item>
+        <item>Chafariz</item>
+        <item>Taberna</item>
+        <item>Postigo</item>
+        <item>Beco</item>
+        <item>Estendal</item>
+        <item>Igreja velha</item>
+        <item>Degraus do gato</item>
+        <item>Arco</item>
+        <item>Hera no muro</item>
+        <item>Lanterna</item>
+        <item>Carvoaria</item>
+        <item>Cisterna</item>
+        <item>Campanário</item>
+        <item>Porta</item>
+        <item>Telhado</item>
+        <item>Chaminé</item>
+        <item>Banca</item>
+        <item>Rede</item>
+        <item>Nicho</item>
+        <item>Banco de cerâmica</item>
+        <item>Portão</item>
+        <item>Poço</item>
+        <item>Corredor</item>
+        <item>Mosaico</item>
+        <item>Relógio</item>
+        <item>Esquina do café</item>
+        <item>Degrau do jardim</item>
+        <item>Gelosia</item>
+        <item>Ponte de pedra</item>
+        <item>Passagem</item>
+        <item>Terraço</item>
+        <item>Lenheiro</item>
+        <item>Depósito</item>
+        <item>Janela do fado</item>
+        <item>Viela</item>
+        <item>Vasos suspensos</item>
+        <item>Parapeito do pôr do sol</item>
+        <item>Padaria antiga</item>
+        <item>Vista do porto</item>
+        <item>Casa torta</item>
+        <item>Últimos degraus</item>
+        <item>Muralha</item>
+        <item>Lanterna da noite</item>
+        <item>Encruzilhada</item>
+        <item>Mercearia</item>
+        <item>Azulejos do bairro</item>
+        <item>Feira de rua</item>
+        <item>Porta pintada</item>
+        <item>Arco de tijolo</item>
+        <item>Bazar noturno</item>
+        <item>Cadeiras do café</item>
+        <item>Telhado de zinco</item>
+        <item>Mural</item>
+        <item>Grade de ferro</item>
+        <item>Casa de chá</item>
+        <item>Barraca</item>
+        <item>Loja da esquina</item>
+        <item>Largo empoeirado</item>
+        <item>Sala do tear</item>
+        <item>Muro de sombra</item>
+        <item>Forno de pão</item>
+        <item>Beco do vento</item>
+        <item>Balança</item>
+        <item>Cinema antigo</item>
+        <item>Ponte de corda</item>
+        <item>Candeeiro</item>
+        <item>Loja de tapetes</item>
+        <item>Carril</item>
+        <item>Mercado de lanternas</item>
+        <item>Floreira</item>
+        <item>Tanque de pedra</item>
+        <item>Moinho de café</item>
+        <item>Tinas de tinta</item>
+        <item>Papagaios</item>
+        <item>Vendedor de azulejos</item>
+        <item>Portão do jardim</item>
+        <item>Sino de vento</item>
+        <item>Placa de latão</item>
+        <item>Bar de noodles</item>
+        <item>Patamar</item>
+        <item>Atelier de costura</item>
+        <item>Vasos de manjericão</item>
+        <item>Torre de vigia</item>
+        <item>Pátio escondido</item>
+        <item>Figueira</item>
+        <item>Gaiola</item>
+        <item>Taberna velha</item>
+        <item>Degrau de mármore</item>
+        <item>Loja de renda</item>
+        <item>Bloco</item>
+        <item>Último mercado</item>
+        <item>Beco das especiarias</item>
+        <item>Telhado dos pombos</item>
+        <item>Cais</item>
+        <item>Margem</item>
+        <item>Guindaste</item>
+        <item>Armazém</item>
+        <item>Lota</item>
+        <item>Cacilheiro</item>
+        <item>Porta do cais</item>
+        <item>Pilha de barris</item>
+        <item>Pontão</item>
+        <item>Âncora</item>
+        <item>Rolo de corda</item>
+        <item>Bóia</item>
+        <item>Muro do porto</item>
+        <item>Sótão das redes</item>
+        <item>Armazém de sal</item>
+        <item>Bar dos marinheiros</item>
+        <item>Balança de cais</item>
+        <item>Marca da maré</item>
+        <item>Poiso das gaivotas</item>
+        <item>Armazém de navios</item>
+        <item>Farol</item>
+        <item>Bidão</item>
+        <item>Alfândega</item>
+        <item>Pontão de ferro</item>
+        <item>Escadas do cais</item>
+        <item>Loja de velas</item>
+        <item>Escotilha</item>
+        <item>Peixaria</item>
+        <item>Paragem</item>
+        <item>Leito do rio</item>
+        <item>Rampa</item>
+        <item>Poste de amarração</item>
+        <item>Escoadouro</item>
+        <item>Batelão</item>
+        <item>Cordoaria</item>
+        <item>Doca seca</item>
+        <item>Roldana</item>
+        <item>Prancha</item>
+        <item>Carimbo</item>
+        <item>Casa do gelo</item>
+        <item>Poste de luz</item>
+        <item>Casa do piloto</item>
+        <item>Cais de pedra</item>
+        <item>Casco afundado</item>
+        <item>Relógio do cais</item>
+        <item>Sirene</item>
+        <item>Capitania</item>
+        <item>Enseada</item>
+        <item>Último cais</item>
+        <item>Fila da alfândega</item>
+        <item>Ladeira</item>
+        <item>Latada</item>
+        <item>Portal</item>
+        <item>Muralha antiga</item>
+        <item>Gárgula</item>
+        <item>Lagar</item>
+        <item>Capela</item>
+        <item>Jardim escondido</item>
+        <item>Escadaria</item>
+        <item>Arco gasto</item>
+        <item>Porta da cisterna</item>
+        <item>Poço antigo</item>
+        <item>Caminho de burros</item>
+        <item>Corda do sino</item>
+        <item>Muro de socalco</item>
+        <item>Jardim no telhado</item>
+        <item>Forno de cal</item>
+        <item>Oratório</item>
+        <item>Oficina de oleiro</item>
+        <item>Cavalariça</item>
+        <item>Casa do guarda</item>
+        <item>Cocho</item>
+        <item>Degrau partido</item>
+        <item>Torre de hera</item>
+        <item>Prensa antiga</item>
+        <item>Ameixeira</item>
+        <item>Corrimão</item>
+        <item>Cruzeiro</item>
+        <item>Horta</item>
+        <item>Casa amarela</item>
+        <item>Forno de louça</item>
+        <item>Telhado de telha</item>
+        <item>Sebe</item>
+        <item>Muro com musgo</item>
+        <item>Caminho de cascalho</item>
+        <item>Tanque</item>
+        <item>Banco de pedra</item>
+        <item>Cesto de pão</item>
+        <item>Relógio de sol</item>
+        <item>Nascente</item>
+        <item>Pomar antigo</item>
+        <item>Caminho de barro</item>
+        <item>Encosta</item>
+        <item>Levada</item>
+        <item>Pinheiros</item>
+        <item>Varandim</item>
+        <item>Guarita</item>
+        <item>Cumeeira</item>
+        <item>Adega</item>
+        <item>Carreiro</item>
+        <item>Clube noturno</item>
+        <item>Néon</item>
+        <item>Casa de fado</item>
+        <item>Balcão</item>
+        <item>Porta de vidro</item>
+        <item>Pista</item>
+        <item>Cozinha de madrugada</item>
+        <item>Discos</item>
+        <item>Letreiro</item>
+        <item>Corrimão de latão</item>
+        <item>Reservado</item>
+        <item>Foco</item>
+        <item>Bilheteira</item>
+        <item>Escadas da cave</item>
+        <item>Piano de rua</item>
+        <item>Bar de cocktails</item>
+        <item>Parede de graffiti</item>
+        <item>Estacionamento de bicicletas</item>
+        <item>Praça de táxis</item>
+        <item>Café de esquina</item>
+        <item>Jukebox</item>
+        <item>Bar no telhado</item>
+        <item>Cartazes</item>
+        <item>Traseiras</item>
+        <item>Caixa do elevador</item>
+        <item>Elétrico da noite</item>
+        <item>Sala de fumo</item>
+        <item>Galeria</item>
+        <item>Livraria</item>
+        <item>Camarote</item>
+        <item>Guarda-roupa</item>
+        <item>Porteiro</item>
+        <item>Adega</item>
+        <item>Teatro antigo</item>
+        <item>Pastelaria</item>
+        <item>Autocarro da noite</item>
+        <item>Sala de espelhos</item>
+        <item>Balde</item>
+        <item>Varanda cheia</item>
+        <item>Porta de artistas</item>
+        <item>Lanterna de papel</item>
+        <item>Escola de música</item>
+        <item>Escada de incêndio</item>
+        <item>Última rodada</item>
+        <item>Escadas do amanhecer</item>
+        <item>Bar escondido</item>
+        <item>Candeeiro de cristal</item>
+        <item>Bar de madrugada</item>
+        <item>Bar do piano</item>
+        <item>Corda de veludo</item>
+        <item>Montra</item>
+        <item>Encadernador</item>
+        <item>Arcada</item>
+        <item>Ourivesaria</item>
+        <item>Chapelaria</item>
+        <item>Moldura dourada</item>
+        <item>Fachada do teatro</item>
+        <item>Balcão de mármore</item>
+        <item>Salão de chá</item>
+        <item>Largo</item>
+        <item>Estátua de bronze</item>
+        <item>Papelaria</item>
+        <item>Partitura</item>
+        <item>Perfumaria</item>
+        <item>Torre do relógio</item>
+        <item>Folha de ouro</item>
+        <item>Gradeamento</item>
+        <item>Andar de cima</item>
+        <item>Estuque</item>
+        <item>Luvaria</item>
+        <item>Livraria antiga</item>
+        <item>Tinteiro</item>
+        <item>Máquina de escrever</item>
+        <item>Cortina de veludo</item>
+        <item>Sala dos candeeiros</item>
+        <item>Confeitaria</item>
+        <item>Pavimento de azulejo</item>
+        <item>Arco</item>
+        <item>Cantaria</item>
+        <item>Escadas da igreja</item>
+        <item>Estúdio fotográfico</item>
+        <item>Placa de bronze</item>
+        <item>Alfaiate</item>
+        <item>Loja de pianos</item>
+        <item>Cartaz da ópera</item>
+        <item>Painel de madeira</item>
+        <item>Casa de café</item>
+        <item>Candeeiro de rua</item>
+        <item>Varanda de ferro</item>
+        <item>Campainha</item>
+        <item>Relógio antigo</item>
+        <item>Praça da fonte</item>
+        <item>Passagem</item>
+        <item>Espelhos</item>
+        <item>Pátio silencioso</item>
+        <item>Letreiro dourado</item>
+        <item>Última montra</item>
+        <item>Grade</item>
+        <item>Museu de cera</item>
+        <item>Porta dourada</item>
+        <item>Rua em quadrícula</item>
+        <item>Coluna</item>
+        <item>Fachada</item>
+        <item>Praça do Marquês</item>
+        <item>Arco triunfal</item>
+        <item>Elevador</item>
+        <item>Loja do rés-do-chão</item>
+        <item>Passadeira</item>
+        <item>Lancil</item>
+        <item>Linha de elétrico</item>
+        <item>Mostrador</item>
+        <item>Prédio de escritórios</item>
+        <item>Hall de escadas</item>
+        <item>Calçada portuguesa</item>
+        <item>Cofre</item>
+        <item>Quiosque</item>
+        <item>Cais de carga</item>
+        <item>Leão de pedra</item>
+        <item>Arquivo</item>
+        <item>Sala dos livros</item>
+        <item>Tabuleta</item>
+        <item>Puxador de latão</item>
+        <item>Cabine</item>
+        <item>Loja de vestidos</item>
+        <item>Tabacaria</item>
+        <item>Toldo de vidro</item>
+        <item>Porta corta-fogo</item>
+        <item>Bilheteira</item>
+        <item>Abrigo</item>
+        <item>Cano</item>
+        <item>Grelha</item>
+        <item>Torrefação</item>
+        <item>Chaminé da padaria</item>
+        <item>Ecrã</item>
+        <item>Tanque da fonte</item>
+        <item>Fila de candeeiros</item>
+        <item>Garagem</item>
+        <item>Lobby</item>
+        <item>Cabine telefónica</item>
+        <item>Pedestal</item>
+        <item>Avenida</item>
+        <item>Correio</item>
+        <item>Mercado</item>
+        <item>Terraço de escritórios</item>
+        <item>Escadaria da praça</item>
+        <item>Travessa</item>
+        <item>Torre de vidro</item>
+        <item>Última esquina</item>
+        <item>Entrada do metro</item>
+        <item>Escadas do relógio</item>
+        <item>Bloco de tijolo</item>
+        <item>Escadas do prédio</item>
+        <item>Respiradouro</item>
+        <item>Portão da fábrica</item>
+        <item>Caldeira</item>
+        <item>Chaminé</item>
+        <item>Barracão</item>
+        <item>Pátio de cimento</item>
+        <item>Trincheira</item>
+        <item>Armazém de carga</item>
+        <item>Viga de aço</item>
+        <item>Silo de carvão</item>
+        <item>Depósito de água</item>
+        <item>Estrutura de tubos</item>
+        <item>Desvio</item>
+        <item>Gasómetro</item>
+        <item>Eclusa</item>
+        <item>Roda de moinho</item>
+        <item>Armazém de garrafas</item>
+        <item>Forno de tijolo</item>
+        <item>Sala das máquinas</item>
+        <item>Cabina do guindaste</item>
+        <item>Linha de rebites</item>
+        <item>Refeitório</item>
+        <item>Relógio de ponto</item>
+        <item>Balneário</item>
+        <item>Vedação</item>
+        <item>Pilha de bidões</item>
+        <item>Hidrante</item>
+        <item>Cabine de sinalização</item>
+        <item>Cais</item>
+        <item>Válvula</item>
+        <item>Poço de ventilação</item>
+        <item>Escada de ferro</item>
+        <item>Telhado de zinco</item>
+        <item>Catenária</item>
+        <item>Clarabóia</item>
+        <item>Bebedouro</item>
+        <item>Manómetro</item>
+        <item>Parede ondulada</item>
+        <item>Vão</item>
+        <item>Bobina</item>
+        <item>Tapete</item>
+        <item>Cobertura</item>
+        <item>Turno da noite</item>
+        <item>Pó</item>
+        <item>Gaiola de lâmpada</item>
+        <item>Último turno</item>
+        <item>Tinturaria</item>
+        <item>Ponte do canal</item>
+        <item>Muro do mar</item>
+        <item>Ondas</item>
+        <item>Cabo</item>
+        <item>Passeio</item>
+        <item>Abrigo</item>
+        <item>Bar de praia</item>
+        <item>Poça</item>
+        <item>Costa rochosa</item>
+        <item>Duna</item>
+        <item>Pontão de madeira</item>
+        <item>Vento</item>
+        <item>Campo de papagaios</item>
+        <item>Deque</item>
+        <item>Maresia</item>
+        <item>Poleiro</item>
+        <item>Palheiro</item>
+        <item>Vivenda</item>
+        <item>Trilho</item>
+        <item>Loja de surf</item>
+        <item>Banco de azulejo</item>
+        <item>Quebra-mar</item>
+        <item>Forte</item>
+        <item>Azulejo de coral</item>
+        <item>Rampa</item>
+        <item>Gelados</item>
+        <item>Ciclovia</item>
+        <item>Vedação da duna</item>
+        <item>Algas</item>
+        <item>Maregrafo</item>
+        <item>Caminho de conchas</item>
+        <item>Barra</item>
+        <item>Redes a secar</item>
+        <item>Capela do mar</item>
+        <item>Alpendre</item>
+        <item>Madeira</item>
+        <item>Azulejos azuis</item>
+        <item>Pinhal</item>
+        <item>Janela de mar</item>
+        <item>Linha de espuma</item>
+        <item>Clube náutico</item>
+        <item>Gruta</item>
+        <item>Escadas para o mar</item>
+        <item>Corrente</item>
+        <item>Esplanada</item>
+        <item>Maré-viva</item>
+        <item>Luz do pontão</item>
+        <item>Última onda</item>
+        <item>Degraus da enseada</item>
+        <item>Último pôr do sol</item>
+        <item>Trilho da duna</item>
+        <item>Claustro</item>
+        <item>Talha de pedra</item>
+        <item>Coluna de corda</item>
+        <item>Padrão</item>
+        <item>Varanda da torre</item>
+        <item>Painel de azulejos</item>
+        <item>Caravela</item>
+        <item>Cúpula</item>
+        <item>Arcada</item>
+        <item>Janela gótica</item>
+        <item>Nave</item>
+        <item>Túmulo</item>
+        <item>Vela</item>
+        <item>Globo</item>
+        <item>Sebe</item>
+        <item>Portão do palácio</item>
+        <item>Museu dos coches</item>
+        <item>Sala dos coches</item>
+        <item>Escadaria do rio</item>
+        <item>Canhão</item>
+        <item>Muralha do forte</item>
+        <item>Torre</item>
+        <item>Sobreiro</item>
+        <item>Fila</item>
+        <item>Cruz de pedra</item>
+        <item>Chão de mármore</item>
+        <item>Teto pintado</item>
+        <item>Coro</item>
+        <item>Tubos do órgão</item>
+        <item>Cripta</item>
+        <item>Portal</item>
+        <item>Corda esculpida</item>
+        <item>Jardim de água</item>
+        <item>Espelho de água</item>
+        <item>Torreão</item>
+        <item>Sino</item>
+        <item>Alameda</item>
+        <item>Volta do elétrico</item>
+        <item>Pátio do museu</item>
+        <item>Base de pilar</item>
+        <item>Friso</item>
+        <item>Sala abobadada</item>
+        <item>Ponte de ferro</item>
+        <item>Muro do sol</item>
+        <item>Carta náutica</item>
+        <item>Último claustro</item>
+        <item>Porta do forte</item>
+        <item>Sino da capela</item>
+        <item>Banco</item>
+        <item>Nau</item>
+        <item>Boulevard</item>
+        <item>Escritório de vidro</item>
+        <item>Praça de betão</item>
+        <item>Faixa</item>
+        <item>Estação</item>
+        <item>Torre de estacionamento</item>
+        <item>Átrio</item>
+        <item>Jardim</item>
+        <item>Ténis</item>
+        <item>Centro comercial</item>
+        <item>Esplanada</item>
+        <item>Grua</item>
+        <item>Lobby do céu</item>
+        <item>Painéis solares</item>
+        <item>Bicicletas partilhadas</item>
+        <item>Autocarro elétrico</item>
+        <item>Passadiço</item>
+        <item>Janela do laboratório</item>
+        <item>Sala de servidores</item>
+        <item>Ginásio</item>
+        <item>Jardim no topo</item>
+        <item>Praça com fonte</item>
+        <item>Mural urbano</item>
+        <item>Secretária</item>
+        <item>Elevador de vidro</item>
+        <item>Grelha do metro</item>
+        <item>Placa central</item>
+        <item>Portão do estádio</item>
+        <item>Piso 4</item>
+        <item>Passagem pedonal</item>
+        <item>Igreja moderna</item>
+        <item>Praça do cinema</item>
+        <item>Sala de reuniões</item>
+        <item>Loft</item>
+        <item>Receção</item>
+        <item>Banco de jardim</item>
+        <item>Brilho</item>
+        <item>Estrada de serviço</item>
+        <item>Projetores</item>
+        <item>Stand</item>
+        <item>Ala do museu</item>
+        <item>Avenida</item>
+        <item>Semáforo</item>
+        <item>Elevador</item>
+        <item>Último boulevard</item>
+        <item>Terraço do café</item>
+        <item>Átrio do metro</item>
+        <item>Luz da praça</item>
+        <item>Painel</item>
+        <item>Volta de elétrico</item>
+        <item>Torre de vidro</item>
+        <item>Frente de água</item>
+        <item>Teleférico</item>
+        <item>Marina</item>
+        <item>Oceanário</item>
+        <item>Passadeira</item>
+        <item>Cobertura em onda</item>
+        <item>Vidro do aquário</item>
+        <item>Pavilhão</item>
+        <item>Toldo</item>
+        <item>Coluna de luz</item>
+        <item>Deque flutuante</item>
+        <item>Arco de aço</item>
+        <item>Fachada espelhada</item>
+        <item>Espelho d\'água</item>
+        <item>Shuttle</item>
+        <item>Torre solar</item>
+        <item>Parede verde</item>
+        <item>Margem</item>
+        <item>Skyline</item>
+        <item>Caixa do elevador</item>
+        <item>Átrio</item>
+        <item>Comporta</item>
+        <item>Café do pontão</item>
+        <item>Ponte aérea</item>
+        <item>Chão de vidro</item>
+        <item>Jardim interior</item>
+        <item>Linha de gruas</item>
+        <item>Turbina</item>
+        <item>Sala de concertos</item>
+        <item>Torniquete</item>
+        <item>Ciclovia</item>
+        <item>Painel da maré</item>
+        <item>Escritório do cais</item>
+        <item>Cubo de vidro</item>
+        <item>Torre hoteleira</item>
+        <item>Corrimão</item>
+        <item>Praça aberta</item>
+        <item>Espetáculo de luz</item>
+        <item>Jato de água</item>
+        <item>Pilão</item>
+        <item>Miradouro</item>
+        <item>Escadas da margem</item>
+        <item>Último pontão</item>
+        <item>Pontão 12</item>
+        <item>Sala do cacilheiro</item>
+        <item>Mastro</item>
+        <item>Fila de luzes</item>
+        <item>Ponte de vidro</item>
+        <item>Deque silencioso</item>
+    </string-array>
+</resources>
