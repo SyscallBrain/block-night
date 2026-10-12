@@ -68,22 +68,22 @@ To check it: `apksigner verify --print-certs block-night-<version>.apk`
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/01-home.jpg" width="200" alt="Home screen with the district tower"><br><sub>Home</sub></td>
-    <td align="center"><img src="docs/screenshots/02-district-map.jpg" width="200" alt="Alfama district map"><br><sub>District map</sub></td>
-    <td align="center"><img src="docs/screenshots/03-district-locked.jpg" width="200" alt="Bairro Alto district, still locked"><br><sub>Another district</sub></td>
-    <td align="center"><img src="docs/screenshots/04-gameplay.jpg" width="200" alt="Playing a floor"><br><sub>Playing a floor</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.jpg" width="200" alt="Home screen with the district tower"><br><sub>Home</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/02-district-map.jpg" width="200" alt="Alfama district map"><br><sub>District map</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/03-district-locked.jpg" width="200" alt="Bairro Alto district, still locked"><br><sub>Another district</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/04-gameplay.jpg" width="200" alt="Playing a floor"><br><sub>Playing a floor</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/05-stack.jpg" width="200" alt="A tall stack with the ghost piece"><br><sub>Ghost piece and Hold</sub></td>
-    <td align="center"><img src="docs/screenshots/06-floor-cleared.jpg" width="200" alt="Floor cleared with two stars"><br><sub>Floor cleared</sub></td>
-    <td align="center"><img src="docs/screenshots/07-pause.jpg" width="200" alt="Pause sheet"><br><sub>Pause</sub></td>
-    <td align="center"><img src="docs/screenshots/08-hard-floor.jpg" width="200" alt="A Hard floor with garbage and the gesture hint"><br><sub>Hard floor with garbage</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/05-stack.jpg" width="200" alt="A tall stack with the ghost piece"><br><sub>Ghost piece and Hold</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/06-floor-cleared.jpg" width="200" alt="Floor cleared with two stars"><br><sub>Floor cleared</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/07-pause.jpg" width="200" alt="Pause sheet"><br><sub>Pause</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/08-hard-floor.jpg" width="200" alt="A Hard floor with garbage and the gesture hint"><br><sub>Hard floor with garbage</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/09-free-play.jpg" width="200" alt="Free play modes"><br><sub>Free play</sub></td>
-    <td align="center"><img src="docs/screenshots/10-daily.jpg" width="200" alt="Daily challenge"><br><sub>Daily challenge</sub></td>
-    <td align="center"><img src="docs/screenshots/11-statistics.jpg" width="200" alt="Statistics and achievements"><br><sub>Statistics</sub></td>
-    <td align="center"><img src="docs/screenshots/12-settings.jpg" width="200" alt="Settings"><br><sub>Settings</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/09-free-play.jpg" width="200" alt="Free play modes"><br><sub>Free play</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10-daily.jpg" width="200" alt="Daily challenge"><br><sub>Daily challenge</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11-statistics.jpg" width="200" alt="Statistics and achievements"><br><sub>Statistics</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/12-settings.jpg" width="200" alt="Settings"><br><sub>Settings</sub></td>
   </tr>
 </table>
 
@@ -186,6 +186,7 @@ flowchart LR
 | [`app/`](app) | Jetpack Compose UI, the real-time `GameSession`, gesture and button input, atomic saves, sound and haptics. |
 | [`content/`](content) | The floor catalog: 600 floor files and 1,800 certificates. |
 | [`tools/`](tools) | Verification, sound generation and the floor-title script. |
+| [`fastlane/`](fastlane/metadata/android) | Store listing (texts, icon, feature graphic, screenshots) used by F-Droid. |
 
 Some design choices:
 
