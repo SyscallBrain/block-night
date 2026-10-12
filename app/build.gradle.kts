@@ -17,8 +17,22 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+    // Release signing is read from the developer's ~/.gradle/gradle.properties and never committed.
+    // Without these properties (CI, forks) the release build is produced unsigned.
+    val releaseStoreFile = providers.gradleProperty("blockNight.release.storeFile").orNull
+    signingConfigs {
+        if (releaseStoreFile != null) create("release") {
+            storeFile = file(releaseStoreFile)
+            storePassword = providers.gradleProperty("blockNight.release.storePassword").get()
+            keyAlias = providers.gradleProperty("blockNight.release.keyAlias").get()
+            keyPassword = providers.gradleProperty("blockNight.release.keyPassword").get()
+        }
+    }
     buildTypes {
-        release { isMinifyEnabled = false }
+        release {
+            isMinifyEnabled = false
+            signingConfig = signingConfigs.findByName("release")
+        }
     }
     dependenciesInfo {
         includeInApk = false

@@ -20,10 +20,10 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: Check out
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up JDK 21
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '21'
@@ -34,7 +34,7 @@ jobs:
           "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-37.2" "build-tools;37.0.0"
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Unit tests (core, leveltool, app)
         run: ./gradlew :core:test :leveltool:test :app:testDebugUnitTest --console=plain
@@ -48,15 +48,18 @@ jobs:
       - name: Lint and debug APK
         run: ./gradlew :app:lintDebug :app:assembleDebug --console=plain
 
+      - name: Unsigned release APK
+        run: ./gradlew :app:assembleRelease --console=plain
+
       - name: Upload debug APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: block-night-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
       - name: Upload reports
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: reports
           path: |

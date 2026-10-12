@@ -7,6 +7,7 @@
 **An offline falling-blocks game for Android: climb 600 floors across 12 night-time districts, in three difficulties, every variant proven clearable.**
 
 [![CI](https://github.com/SyscallBrain/block-night/actions/workflows/ci.yml/badge.svg)](https://github.com/SyscallBrain/block-night/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SyscallBrain/block-night?color=E0AF68)](https://github.com/SyscallBrain/block-night/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Android%208.0%2B-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.4-7F52FF?logo=kotlin&logoColor=white)
@@ -18,7 +19,7 @@
 ![No ads](https://img.shields.io/badge/ads%20%26%20tracking-none-F7768E)
 ![Languages](https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs-7DCFFF)
 
-[Features](#features) · [Screenshots](#screenshots) · [How to play](#how-to-play) · [Build](#building-from-source) · [Architecture](#architecture) · [Contributing](#contributing)
+[Download](#download) · [Features](#features) · [Screenshots](#screenshots) · [How to play](#how-to-play) · [Build](#building-from-source) · [Architecture](#architecture) · [Contributing](#contributing)
 
 </div>
 
@@ -31,6 +32,19 @@ Block Night is a real-time falling-blocks game with a campaign. The city is a sk
 Every floor comes in Easy, Medium and Hard, and every one of the **1,800 variants ships with a solution certificate**. An offline solver plays each variant with the same Kotlin engine that runs the game, and the build replays all the certificates. If a floor can no longer be cleared within its budget, the build fails.
 
 A floor always deals the same pieces in the same order, so losing never changes your luck. The game has **no network permission**. There are no ads, no accounts and no analytics. Your progress stays on the device unless you export it.
+
+## Download
+
+Get the signed APK from the [latest release](https://github.com/SyscallBrain/block-night/releases/latest) and install it on a device running Android 8.0 or newer. You may need to allow installs from your browser or file manager.
+
+Every release lists the SHA-256 of its APK. The APK is signed with this certificate:
+
+```
+CN=Tiago Correia, O=Block Night, C=PT
+SHA-256: 8ddbca687d31f93928eb4d78a0247b232383c89ed1c1d46558cc2c9cda7d33fa
+```
+
+To check it: `apksigner verify --print-certs block-night-<version>.apk`
 
 ## Features
 
@@ -107,8 +121,6 @@ Back-to-back Quads and T-Spins are worth ×1.5. Each consecutive clear adds a co
 
 ## Building from source
 
-There is no signed release yet. To play, build the debug APK.
-
 ### Requirements
 
 | Tool | Version |
@@ -132,6 +144,8 @@ export ANDROID_HOME=/path/to/android-sdk  # or create local.properties with sdk.
 ./gradlew :app:assembleDebug
 adb install app/build/outputs/apk/debug/app-debug.apk
 ```
+
+`./gradlew :app:assembleRelease` builds an unsigned release APK. To sign it, define `blockNight.release.storeFile`, `storePassword`, `keyAlias` and `keyPassword` (all with the `blockNight.release.` prefix) in your own `~/.gradle/gradle.properties`. Never commit them.
 
 Every build checks the floor catalog first. It validates the 600 floors and replays all 1,800 certificates before packaging them, so the first build takes a little longer. Later builds reuse the result until something in `content/` changes.
 
